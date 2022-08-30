@@ -1,0 +1,125 @@
+* {margin: 0; padding: 0; box-sizing: border-box; background-color: rgb(163, 163, 163);}
+* {font-family: 'Lato', sans-serif;}
+
+
+.nav {display: flex; background-color: gainsboro; width: 100%; justify-content: space-between; align-items: center; padding-top: 25px; padding-bottom: 25px; position: fixed; z-index: 1; box-shadow: 1px 1px 10px rgb(153, 153, 153);}
+.nav a {text-decoration: none; color: black; background-color: gainsboro; align-items: center; color: orange;}
+.nav .links {display: flex; width: 30%; justify-content: space-around; background-color: gainsboro; align-items: center}
+.nav .name {width: 65%; margin-left: 30px; background-color: gainsboro;}
+.nav h1 {background-color: gainsboro; font-weight: 800;}
+.nav h3 {background-color: gainsboro; font-weight: 300;}
+.nav .link4 {border: 1px solid orange; background-color: gainsboro; padding: 7px; padding-left: 15px; padding-right: 15px; border-radius: 20px;}
+.nav .link4 h3 {background-color: gainsboro; color: orange; font-weight: 300}
+
+
+/* ROW1 STARTS HERE */
+
+
+.row1 {display: block; width: 100%;}
+.row1 .txt {width: 100%; padding-top: 120px; text-align: center; justify-content: space-between; margin: auto;}
+.row1 .txt h1 {font-weight: 400; color: orange;}
+
+.row1 .txt2 {width: 15%; text-align: left; justify-content: space-between; margin: 20px; border: 1px solid orange; padding: 7px; padding-left: 15px; padding-right: 15px; border-radius: 20px; }
+.row1 .txt2 h2 {font-weight: 400; color: orange;}
+
+.row1 .preview {width: 98%; justify-content: space-evenly; display: grid; grid-template-columns: 410px 410px 410px; grid-gap: 30px; padding-top: 10px; margin: auto; padding-bottom: 30px;}
+
+.row1 .img1 {width: 100%; border: 1px solid rgb(70, 70, 70); box-shadow: 0.2px 0.2px 5px black}
+.row1 .img1 img {object-fit: cover; width: 100%;}
+
+.row1 .img2 {width: 100%; border: 1px solid rgb(70, 70, 70); box-shadow: 0.2px 0.2px 5px black}
+.row1 .img2 img {object-fit: contain; width: 100%;}
+
+.row1 .img3 {width: 100%; border: 1px solid rgb(70, 70, 70); box-shadow: 0.2px 0.2px 5px black}
+.row1 .img3 img {object-fit: contain; width: 100%;}
+
+.row1 .img4 {width: 100%; border: 1px solid rgb(70, 70, 70); box-shadow: 0.2px 0.2px 5px black}
+.row1 .img4 img {object-fit: contain; width: 100%;}
+
+.row1 .img5 {width: 100%; border: 1px solid rgb(70, 70, 70); box-shadow: 0.2px 0.2px 5px black}
+.row1 .img5 img {object-fit: contain; width: 100%;}
+
+.row1 .img6 {width: 100%; border: 1px solid rgb(70, 70, 70); box-shadow: 0.2px 0.2px 5px black}
+.row1 .img6 img {object-fit: contain; width: 100%;}
+
+.row1 .img7 {width: 100%; border: 1px solid rgb(70, 70, 70); box-shadow: 0.2px 0.2px 5px black}
+.row1 .img7 img {object-fit: contain; width: 100%;}
+
+.row1 .img8 {width: 100%; border: 1px solid rgb(70, 70, 70); box-shadow: 0.2px 0.2px 5px black}
+.row1 .img8 img {object-fit: contain; width: 100%;}
+
+.row1 .img9 {width: 100%; border: 1px solid rgb(70, 70, 70); box-shadow: 0.2px 0.2px 5px black}
+.row1 .img9 img {object-fit: contain; width: 100%;}
+
+
+/* ROW1 ANIMATION STARTS HERE */
+
+.row1 .img1:hover {
+    border: none; box-shadow: 0.2px 0.2px 15px black; transform: scale(1.1);
+}
+.row1 .img2:hover {
+    border: none; box-shadow: 0.2px 0.2px 15px black; transform: scale(1.1);
+}
+.row1 .img3:hover {
+    border: none; box-shadow: 0.2px 0.2px 15px black; transform: scale(1.1);
+}
+.row1 .img4:hover {
+    border: none; box-shadow: 0.2px 0.2px 15px black; transform: scale(1.1);
+}
+.row1 .img5:hover {
+    border: none; box-shadow: 0.2px 0.2px 15px black; transform: scale(1.1);
+}
+.row1 .img6:hover {
+    border: none; box-shadow: 0.2px 0.2px 15px black; transform: scale(1.1);
+}
+.row1 .img7:hover {
+    border: none; box-shadow: 0.2px 0.2px 15px black; transform: scale(1.1);
+}
+.row1 .img8:hover {
+    border: none; box-shadow: 0.2px 0.2px 15px black; transform: scale(1.1);
+}
+.row1 .img9:hover {
+    border: none; box-shadow: 0.2px 0.2px 15px black; transform: scale(1.1);
+}
+
+
+
+/* ROW2 STARTS HERE */
+
+.row2 {width: 98%; justify-content: space-evenly; display: block; margin: auto; padding-bottom: 70px; overflow: hidden; /* background-image: url(/img/018626eda4eb896a52fafd3924c390ca.jpg); */}
+
+.row2 .preview {width: 98%; justify-content: space-evenly; display: grid; grid-template-columns: auto auto; grid-gap: 8px; padding-top: 10px; margin: auto; padding-bottom: 30px;}
+
+.row2 .txt2 {width: 20%; text-align: left; justify-content: space-between; margin: 20px; border: 1px solid orange; padding: 7px; padding-left: 15px; padding-right: 15px; border-radius: 20px; }
+.row2 .txt2 h2 {font-weight: 400; color: orange;}
+
+.row2 .img1 {width: 100%; border: 1px solid rgb(70, 70, 70); box-shadow: 0.2px 0.2px 5px black; transition: transform 2s; overflow: hidden;}
+.row2 .img1 img {object-fit: contain; width: 100%;}
+
+.row2 .img2 {width: 100%; border: 1px solid rgb(70, 70, 70); box-shadow: 0.2px 0.2px 5px black; transition: transform 2s; overflow: hidden;}
+.row2 .img2 img {object-fit: contain; width: 100%;}
+
+.row2 .img3 {width: 100%; border: 1px solid rgb(70, 70, 70); box-shadow: 0.2px 0.2px 5px black; transition: transform 2s; overflow: hidden;}
+.row2 .img3 img {object-fit: contain; width: 100%;}
+
+.row2 .img4 {width: 100%; border: 1px solid rgb(70, 70, 70); box-shadow: 0.2px 0.2px 5px black; transition: transform 2s; overflow: hidden;}
+.row2 .img4 img {object-fit: contain; width: 100%;}
+
+
+/* ROW2 ANIMATION STARTS HERE */
+
+.row2 .img1:hover {
+    transform: translate(-30px, -30px); box-shadow: 0 0 5px rgb(0 0 0 / 30%);
+}
+
+.row2 .img2:hover {
+    transform: translate(30px, -30px); box-shadow: 0 0 5px rgb(0 0 0 / 30%);
+}
+
+.row2 .img3:hover {
+    transform: translate(-30px, 30px); box-shadow: 0 0 5px rgb(0 0 0 / 30%);
+}
+
+.row2 .img4:hover {
+    transform: translate(30px, 30px); box-shadow: 0 0 5px rgb(0 0 0 / 30%);
+}
